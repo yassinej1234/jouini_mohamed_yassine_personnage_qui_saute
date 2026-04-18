@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  background: #f0f0f0;
+}
+
+#game {
+  width: 800px;
+  height: 250px;
+  border: 3px solid black;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to top, #ddd 30%, #fff 30%);
+}
+
+#player {
+  width: 40px;
+  height: 40px;
+  background: blue;
+  position: absolute;
+  bottom: 0;
+  left: 100px;
+  border-radius: 5px;
+  transition: height 0.1s;
+}
+
+.crouch {
+  height: 20px;
+}
+
+.obstacle {
+  position: absolute;
+  background: red;
+  border-radius: 4px;
+}

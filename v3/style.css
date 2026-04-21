@@ -1,0 +1,62 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  background: #87CEEB;
+}
+
+/* GAME */
+#game {
+  width: 1200px;
+  height: 400px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid black;
+}
+
+/* BACKGROUND PRO */
+#background {
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  background:
+    url("bg.png") repeat-x bottom,
+    url("bg.png") repeat-x top;
+  background-size:contain;
+  animation: bgMove 8s linear infinite;
+}
+
+/* STOP BG */
+.stop {
+  animation: none !important;
+}
+
+@keyframes bgMove {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* PLAYER */
+#player {
+  position: absolute;
+  bottom: 0;
+  left: 100px;
+  z-index: 2;
+}
+
+#player img {
+  width: 80px;
+}
+
+/* CROUCH */
+.crouch img {
+  transform: scaleY(0.6);
+}
+
+/* OBSTACLES */
+.obstacle {
+  position: absolute;
+  background: url("hrissa.png") no-repeat center;
+  background-size: contain;
+  z-index: 2;
+}

@@ -13,7 +13,7 @@ Le score augmente avec le temps (distance parcourue), et la difficulté évolue 
 * **HTML5** : structure de la page et intégration du jeu
 * **CSS3** : design, animations, responsive design
 * **JavaScript (Vanilla JS)** : logique du jeu, gestion des événements clavier, collisions, score
-* **DOM API** : manipulation dynamique des عناصر de la page
+* **DOM API** : manipulation dynamique des page
 
 ---
 

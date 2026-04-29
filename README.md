@@ -34,13 +34,7 @@ Le score augmente avec le temps (distance parcourue), et la difficulté évolue 
 
 ---
 
-## 🌐 Lien vers le rendu final
 
-👉 https://ton-username.github.io/runner-game/
-
-*(Remplace par ton vrai lien GitHub Pages)*
-
----
 
 ## 🚀 Nouveautés explorées
 
